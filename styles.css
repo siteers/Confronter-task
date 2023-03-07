@@ -1,0 +1,196 @@
+[class *= "col-"] {
+    white-space: nowrap;
+}
+/*wysrodkowanie tekstu do szerokosci 1000px, powyzej od lewej*/
+@media (max-width: 1000px)
+{
+.text {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+/* Jeden z backgroudow wyswietli sie dopiero przy szerokosci od 1050px*/
+@media (min-width: 1050px)
+{
+.element1 {
+    background-image: url("images/background_img2.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+}
+
+/* hover do menu*/
+.menu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size:15px;
+    transition: all 1s ease-out;
+    color:rgb(29, 10, 10);
+    box-shadow: 0px 0px 94px -45px rgb(66, 66, 66);
+}
+/*hover do otrzymaj oferte */
+.ap:hover {
+    cursor:pointer;
+    transition: all 1s ease-out;
+    box-shadow: 0px 0px 68px 0px rgba(66, 68, 90, 1);
+}
+/*hover do zdjecia */
+img:hover {
+    cursor:pointer;
+}
+/*wlasciwosci do rowa (menu) */
+.menuG {
+    min-height:185px;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;  
+}
+/* wlasciwosci rowa (opis)*/
+.opis {
+    height:auto;
+    width:100%;
+}
+/*klasa pomocnicza do divow z suwakiem */
+.op {
+    background-color: rgb(247,177,56);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+}
+    
+/*klasa pomocnicza do diwa - otrzymaj oferte oferte */
+.ap {
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top:10px;
+}
+/* background */
+.element3 {
+    background-image: url("images/background_img1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+/* background - logo */
+.element2 {
+    background-image: url("images/logo.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+/* strzałka przy - otrzymaj oferte */
+span {
+    content: "\00BB";
+  }
+/*suwak kolor,szerokość,dlugosc*/
+input[type="range"]{
+    accent-color: #e38203;
+    height:2px;
+    width:200px;
+  }
+/* kółeczko na suwaku*/
+::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 25px rgba(255, 255, 255);
+  }
+/* min pod suwakiem*/  
+span.min {
+    position: absolute;
+    bottom: 10px;
+    left: 65px;
+  }
+/*max pod suwakiem*/
+span.max {
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+  }
+
+.submit {
+    position:absolute;
+    width:150px;
+    height:60px;
+    background-color: rgb(247,177,56);
+    border: 0px;
+    border-radius:30px;
+    color:white;
+    top:20px;
+    right:20px;
+}
+/* ekran do 576 px - przycisk, wymiary zdjecia, fontsize */
+@media (max-width: 576px)
+{ 
+.submit {
+    position:absolute;
+    font-size:13px;
+    width:100px;
+    height:50px;
+    background-color: rgb(247,177,56);
+    border: 0px;
+    border-radius:30px;
+    color:white;
+    top:20px;
+    right:20px;
+}
+.xa {
+    margin-left:50px;
+    font-size:24px;
+}
+.xb {
+    margin-left: 50px;
+    font-size:16px;
+}
+.img {
+    width:350px;
+    height:300px;
+}
+.menu {
+    text-align: center;
+    background-color: #e38203;
+    border-radius: 30px;
+    font-size:13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border: solid white 1px;
+    opacity: 80%;
+    margin-left: 10px;
+    margin-top:5px;
+}
+.text2 {
+    font-size:13px;
+}
+.element2 {
+    background-image: url("images/logo.png");
+    background-size:40%;
+    background-repeat: no-repeat;
+}
+.op {
+    background-color: rgb(247,177,56);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right:20px;
+    position: relative;
+    display: inline-block;
+}
+.menuG {
+    min-height:175px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    align-content: end;
+}
+}
+.submit:hover {
+    cursor:pointer;
+    transition: all 1s ease-out;
+    box-shadow: 0px 0px 68px 0px rgba(66, 68, 90, 1);
+}
