@@ -139,6 +139,7 @@ span.max {
     right:20px;
 }
 .xa {
+    margin-top:25px;
     margin-left:50px;
     font-size:24px;
 }
@@ -162,9 +163,12 @@ span.max {
     opacity: 80%;
     margin-left: 10px;
     margin-top:5px;
+    margin-bottom:5px;
+    
 }
 .text2 {
     font-size:13px;
+    margin-top:10px;
 }
 .element2 {
     background-image: url("images/logo.png");
