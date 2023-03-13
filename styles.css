@@ -123,6 +123,10 @@ span.max {
     top:20px;
     right:20px;
 }
+.img {
+    width:450px;
+    height:400px;
+}
 /* ekran do 576 px - przycisk, wymiary zdjecia, fontsize */
 @media (max-width: 576px)
 { 
@@ -148,8 +152,8 @@ span.max {
     font-size:16px;
 }
 .img {
-    width:350px;
-    height:300px;
+    width:275px;
+    height:225px;
 }
 .menu {
     text-align: center;
